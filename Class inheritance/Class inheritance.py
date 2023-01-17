@@ -34,7 +34,7 @@ class Group:
         self.members.append(member)
         
     def remove_member (self, member):
-        if str(member) in self.members:
+        if member in self.members:
             self.members.remove(member)
             
     def search (self, surname):
